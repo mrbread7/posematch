@@ -5,6 +5,12 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "owner": "safwan_7",
+    "extra": {
+      "eas": {
+        "projectId": "e71b9d0a-701f-4f8b-b777-fb0d4c3ee281"
+      }
+    },
     "android": {
       "package": "com.mrbread7.posematch"
     },
