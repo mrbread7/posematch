@@ -1,0 +1,25 @@
+{
+  "name": "posematch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "eas-build-post-install": "npx expo install --fix"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "*",
+    "@react-native-community/slider": "*",
+    "expo": "~57.0.0",
+    "expo-camera": "*",
+    "expo-image-picker": "*",
+    "expo-keep-awake": "*",
+    "expo-media-library": "*",
+    "expo-sharing": "*",
+    "expo-status-bar": "*",
+    "react": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-safe-area-context": "*"
+  }
+}

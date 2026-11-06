@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "PoseMatch",
+    "slug": "posematch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.mrbread7.posematch"
+    },
+    "ios": {
+      "bundleIdentifier": "com.mrbread7.posematch"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "PoseMatch uses the camera so you can line up your pose and take photos."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "PoseMatch needs access to your photos so you can view them in the gallery.",
+          "savePhotosPermission": "PoseMatch saves the photos you take to your gallery.",
+          "isAccessMediaLocationEnabled": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "PoseMatch needs access to your photos so you can choose a reference pose."
+        }
+      ]
+    ]
+  }
+}
