@@ -11,8 +11,13 @@
         "projectId": "e71b9d0a-701f-4f8b-b777-fb0d4c3ee281"
       }
     },
+    "icon": "./assets/icon.png",
     "android": {
-      "package": "com.mrbread7.posematch"
+      "package": "com.mrbread7.posematch",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1F1612"
+      }
     },
     "ios": {
       "bundleIdentifier": "com.mrbread7.posematch"
